@@ -29,6 +29,9 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - name: npm install
+        run: npm install
       - name: semantic-release
         id: semantic
         uses: cycjimmy/semantic-release-action@v2
