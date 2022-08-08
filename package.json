@@ -1,0 +1,14 @@
+{
+  "name": "trainee-release-with-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Lime Technologies",
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  }
+}
