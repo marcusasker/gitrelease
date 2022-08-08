@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - beta
+      - alpha
+      - "*[0-9].*[0-9].x"
+      - "*[0-9].x.x"
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+    - name: npm install
+      run: |
+        npm ci
+        npm test
+  semantic-release:
+    name: Run Semantic Release
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: semantic-release
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v2
+      - name: Print version of new release
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: |
+          echo ${{ steps.semantic.outputs.new_release_version }}
