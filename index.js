@@ -1,1 +1,2 @@
-console.log("Hello Lime!");
+console.log("Hello world!");
+console.log(new Date());
