@@ -3,8 +3,8 @@
 This is the trainee course material for the session "Release with Git" which
 aims to build upon the course [Version Control With Git](https://github.com/Lundalogik/version-control-with-git).
 
-The slides for this course can be found at <a href="file:///F|/Common/Training/Trainee/Trainee 2022/Trainee 2022 - reunion Q3 (start in Q1)/Sessions/2022-08-10 (SE) Releasing software with Git (JOA)">
-  F:/Common/Training/Trainee/Trainee 2022/Trainee 2022 - reunion Q3 (start in Q1)/Sessions/2022-08-10 (SE) Releasing software with Git (JOA)
+The slides for this course can be found at <a href="file:///F|/Common/Training/Trainee/Trainee 2023/Trainee 2023 - reunion Q1 (start in Q3 22)/Sessions/2023-01-13 (AC+SE) Releasing software with Git (JOA)">
+  F:/Common/Training/Trainee/Trainee 2023/Trainee 2023 - reunion Q1 (start in Q3 22)/Sessions/2023-01-13 (AC+SE) Releasing software with Git (JOA)
 </a>
 
 The exercises of this course touches these topics:
