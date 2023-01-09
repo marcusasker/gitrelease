@@ -14,7 +14,6 @@ The exercises of this course touches these topics:
 * GitHub Actions Workflows
 * Automated releases on GitHub
 * Working with Pre-Releases
-* Cherry-picking and resolving conflicts
 * Fixup commits and interactive rebasing
 
 # Setting up the environment
