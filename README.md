@@ -23,8 +23,9 @@ The exercises of this course touches these topics:
 3. Navigate to Actions -> General section
 4. Select "Allow all actions and reusable workflows" in "Actions permissions" and click Save
 5. Select "Read and write permissions" in "Workflow permissions" and click Save
-6. Go to the now visible Actions tab in your repository and enable GitHub Actions
-7. Clone the repository created under your personal account
+6. Go to the now visible Actions tab in your repository
+7. If you are presented the button "Enable GitHub Actions" - click it!
+8. Clone the repository created under your personal account
 
 During this course you can use the tools you normally use to work with Git,
 but it's recommended to use the Git CLI. Although tools like VSCode offer a GUI
