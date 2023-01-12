@@ -34,7 +34,7 @@ jobs:
         run: npm install
       - name: semantic-release
         id: semantic
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v3
         with:
           semantic_version: 19
       - name: Print version of new release
