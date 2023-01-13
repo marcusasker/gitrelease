@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/marcusasker/gitrelease/compare/v1.1.0...v1.1.1) (2023-01-13)
+
+
+### Bug Fixes
+
+* trigger build ([a4de5c5](https://github.com/marcusasker/gitrelease/commit/a4de5c5cb9530e0c7b795ce03c20f138c3c9e633))
+
 ## [1.1.0](https://github.com/marcusasker/gitrelease/compare/v1.0.0...v1.1.0) (2023-01-13)
 
 
