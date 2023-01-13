@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/marcusasker/gitrelease/compare/v1.0.0...v1.1.0) (2023-01-13)
+
+
+### Features
+
+* limeify message ([e5e7708](https://github.com/marcusasker/gitrelease/commit/e5e77087d8133863606111afeef3ccb6c450880b))
+
 ## 1.0.0 (2023-01-12)
 
 
